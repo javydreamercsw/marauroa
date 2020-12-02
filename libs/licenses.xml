@@ -2,6 +2,18 @@
 <licenseSummary>
   <dependencies>
     <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <version>1.4.200</version>
+      <licenses>
+        <license>
+          <name>MPL 2.0 or EPL 1.0</name>
+          <url>http://h2database.com/html/license.html</url>
+          <distribution>repo</distribution>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
       <groupId>org.hamcrest</groupId>
       <artifactId>hamcrest-core</artifactId>
       <version>1.3</version>
@@ -15,8 +27,13 @@
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
+<<<<<<< Updated upstream
       <artifactId>jetty-server</artifactId>
       <version>9.4.11.v20180605</version>
+=======
+      <artifactId>jetty-security</artifactId>
+      <version>9.4.31.v20200723</version>
+>>>>>>> Stashed changes
       <licenses>
         <license>
           <name>Apache Software License - Version 2.0</name>
@@ -29,9 +46,15 @@
       </licenses>
     </dependency>
     <dependency>
+<<<<<<< Updated upstream
       <groupId>org.eclipse.jetty.websocket</groupId>
       <artifactId>websocket-common</artifactId>
       <version>9.4.11.v20180605</version>
+=======
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-util</artifactId>
+      <version>9.4.31.v20200723</version>
+>>>>>>> Stashed changes
       <licenses>
         <license>
           <name>Apache Software License - Version 2.0</name>
@@ -44,9 +67,15 @@
       </licenses>
     </dependency>
     <dependency>
+<<<<<<< Updated upstream
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-webapp</artifactId>
       <version>9.4.11.v20180605</version>
+=======
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.1</version>
+>>>>>>> Stashed changes
       <licenses>
         <license>
           <name>Apache Software License - Version 2.0</name>
@@ -59,6 +88,7 @@
       </licenses>
     </dependency>
     <dependency>
+<<<<<<< Updated upstream
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-http</artifactId>
       <version>9.4.11.v20180605</version>
@@ -77,6 +107,11 @@
       <groupId>org.eclipse.jetty.websocket</groupId>
       <artifactId>websocket-api</artifactId>
       <version>9.4.11.v20180605</version>
+=======
+      <groupId>org.eclipse.jetty.websocket</groupId>
+      <artifactId>websocket-server</artifactId>
+      <version>9.4.31.v20200723</version>
+>>>>>>> Stashed changes
       <licenses>
         <license>
           <name>Apache Software License - Version 2.0</name>
@@ -89,6 +124,7 @@
       </licenses>
     </dependency>
     <dependency>
+<<<<<<< Updated upstream
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
@@ -119,14 +155,17 @@
       <groupId>org.eclipse.jetty.websocket</groupId>
       <artifactId>websocket-servlet</artifactId>
       <version>9.4.11.v20180605</version>
+=======
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version>
+>>>>>>> Stashed changes
       <licenses>
         <license>
-          <name>Apache Software License - Version 2.0</name>
-          <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-        </license>
-        <license>
-          <name>Eclipse Public License - Version 1.0</name>
-          <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+          <name>CDDL + GPLv2 with classpath exception</name>
+          <url>https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html</url>
+          <distribution>repo</distribution>
+          <comments>A business-friendly OSS license</comments>
         </license>
       </licenses>
     </dependency>
@@ -160,27 +199,32 @@
       </licenses>
     </dependency>
     <dependency>
-      <groupId>org.scalatra.socketio-java</groupId>
-      <artifactId>socketio-core</artifactId>
-      <version>2.0.0</version>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-client</artifactId>
+      <version>9.4.31.v20200723</version>
       <licenses>
         <license>
-          <name>The MIT License</name>
-          <url>http://www.opensource.org/licenses/mit-license.php</url>
-          <distribution>repo</distribution>
+          <name>Apache Software License - Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+        <license>
+          <name>Eclipse Public License - Version 1.0</name>
+          <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
         </license>
       </licenses>
     </dependency>
     <dependency>
-      <groupId>javax.activation</groupId>
-      <artifactId>javax.activation-api</artifactId>
-      <version>1.2.0</version>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-server</artifactId>
+      <version>9.4.31.v20200723</version>
       <licenses>
         <license>
-          <name>CDDL/GPLv2+CE</name>
-          <url>https://github.com/javaee/activation/blob/master/LICENSE.txt</url>
-          <distribution>repo</distribution>
-          <comments>CDDL or GPL version 2 plus the Classpath Exception</comments>
+          <name>Apache Software License - Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+        <license>
+          <name>Eclipse Public License - Version 1.0</name>
+          <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
         </license>
       </licenses>
     </dependency>
@@ -201,6 +245,7 @@
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty.websocket</groupId>
+<<<<<<< Updated upstream
       <artifactId>websocket-client</artifactId>
       <version>9.4.11.v20180605</version>
       <licenses>
@@ -218,6 +263,10 @@
       <groupId>org.eclipse.jetty.websocket</groupId>
       <artifactId>websocket-server</artifactId>
       <version>9.4.11.v20180605</version>
+=======
+      <artifactId>websocket-servlet</artifactId>
+      <version>9.4.31.v20200723</version>
+>>>>>>> Stashed changes
       <licenses>
         <license>
           <name>Apache Software License - Version 2.0</name>
@@ -230,31 +279,79 @@
       </licenses>
     </dependency>
     <dependency>
-      <groupId>com.h2database</groupId>
-      <artifactId>h2</artifactId>
-      <version>1.4.198</version>
+      <groupId>org.scalatra.socketio-java</groupId>
+      <artifactId>socketio-core</artifactId>
+      <version>2.0.0</version>
       <licenses>
         <license>
-          <name>MPL 2.0 or EPL 1.0</name>
-          <url>http://h2database.com/html/license.html</url>
+          <name>The MIT License</name>
+          <url>http://www.opensource.org/licenses/mit-license.php</url>
           <distribution>repo</distribution>
         </license>
       </licenses>
     </dependency>
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>javax.servlet-api</artifactId>
-      <version>3.1.0</version>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-io</artifactId>
+      <version>9.4.31.v20200723</version>
       <licenses>
         <license>
-          <name>CDDL + GPLv2 with classpath exception</name>
-          <url>https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html</url>
-          <distribution>repo</distribution>
-          <comments>A business-friendly OSS license</comments>
+          <name>Apache Software License - Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+        <license>
+          <name>Eclipse Public License - Version 1.0</name>
+          <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
         </license>
       </licenses>
     </dependency>
     <dependency>
+      <groupId>javax.activation</groupId>
+      <artifactId>javax.activation-api</artifactId>
+      <version>1.2.0</version>
+      <licenses>
+        <license>
+          <name>CDDL/GPLv2+CE</name>
+          <url>https://github.com/javaee/activation/blob/master/LICENSE.txt</url>
+          <distribution>repo</distribution>
+          <comments>CDDL or GPL version 2 plus the Classpath Exception</comments>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+<<<<<<< Updated upstream
+=======
+      <groupId>org.eclipse.jetty.websocket</groupId>
+      <artifactId>websocket-client</artifactId>
+      <version>9.4.31.v20200723</version>
+      <licenses>
+        <license>
+          <name>Apache Software License - Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+        <license>
+          <name>Eclipse Public License - Version 1.0</name>
+          <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-continuation</artifactId>
+      <version>9.4.31.v20200723</version>
+      <licenses>
+        <license>
+          <name>Apache Software License - Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+        <license>
+          <name>Eclipse Public License - Version 1.0</name>
+          <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+>>>>>>> Stashed changes
       <groupId>com.googlecode.json-simple</groupId>
       <artifactId>json-simple</artifactId>
       <version>1.1.1</version>
@@ -278,6 +375,7 @@
       </licenses>
     </dependency>
     <dependency>
+<<<<<<< Updated upstream
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-xml</artifactId>
       <version>9.4.11.v20180605</version>
@@ -296,6 +394,11 @@
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-security</artifactId>
       <version>9.4.11.v20180605</version>
+=======
+      <groupId>org.eclipse.jetty.websocket</groupId>
+      <artifactId>websocket-common</artifactId>
+      <version>9.4.31.v20200723</version>
+>>>>>>> Stashed changes
       <licenses>
         <license>
           <name>Apache Software License - Version 2.0</name>
@@ -309,8 +412,71 @@
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
+<<<<<<< Updated upstream
       <artifactId>jetty-util</artifactId>
       <version>9.4.11.v20180605</version>
+=======
+      <artifactId>jetty-webapp</artifactId>
+      <version>9.4.31.v20200723</version>
+>>>>>>> Stashed changes
+      <licenses>
+        <license>
+          <name>Apache Software License - Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+        <license>
+          <name>Eclipse Public License - Version 1.0</name>
+          <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+<<<<<<< Updated upstream
+      <artifactId>jetty-servlet</artifactId>
+      <version>9.4.11.v20180605</version>
+=======
+      <artifactId>jetty-http</artifactId>
+      <version>9.4.31.v20200723</version>
+>>>>>>> Stashed changes
+      <licenses>
+        <license>
+          <name>Apache Software License - Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+        <license>
+          <name>Eclipse Public License - Version 1.0</name>
+          <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+<<<<<<< Updated upstream
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-continuation</artifactId>
+      <version>9.4.11.v20180605</version>
+=======
+      <groupId>org.eclipse.jetty.websocket</groupId>
+      <artifactId>websocket-api</artifactId>
+      <version>9.4.31.v20200723</version>
+>>>>>>> Stashed changes
+      <licenses>
+        <license>
+          <name>Apache Software License - Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+        <license>
+          <name>Eclipse Public License - Version 1.0</name>
+          <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+        </license>
+      </licenses>
+    </dependency>
+    <dependency>
+<<<<<<< Updated upstream
+=======
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-xml</artifactId>
+      <version>9.4.31.v20200723</version>
       <licenses>
         <license>
           <name>Apache Software License - Version 2.0</name>
@@ -325,7 +491,7 @@
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-servlet</artifactId>
-      <version>9.4.11.v20180605</version>
+      <version>9.4.31.v20200723</version>
       <licenses>
         <license>
           <name>Apache Software License - Version 2.0</name>
@@ -338,21 +504,7 @@
       </licenses>
     </dependency>
     <dependency>
-      <groupId>org.eclipse.jetty</groupId>
-      <artifactId>jetty-continuation</artifactId>
-      <version>9.4.11.v20180605</version>
-      <licenses>
-        <license>
-          <name>Apache Software License - Version 2.0</name>
-          <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-        </license>
-        <license>
-          <name>Eclipse Public License - Version 1.0</name>
-          <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
-        </license>
-      </licenses>
-    </dependency>
-    <dependency>
+>>>>>>> Stashed changes
       <groupId>org.python</groupId>
       <artifactId>jython</artifactId>
       <version>2.7.0</version>
